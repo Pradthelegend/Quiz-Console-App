@@ -8,12 +8,14 @@ public class QuestionService {
         questions[1] = new Question(1,"Chin Chin age","1","2","3","4","2");
         questions[2] = new Question(1,"Chin Chin age","1","2","3","4","2");
         questions[3] = new Question(1,"Chin Chin age","1","2","3","4","2");
-        questions[3] = new Question(1,"Chin Chin age","1","2","3","4","2");
+        questions[4] = new Question(1,"Chin Chin age","1","2","3","4","2");
 
 
     }
-    public void displayQuestions(){
+    public void displayQuestions() {
 
-        System.out.println(questions[0]);
+        for (Question q : questions) {
+            System.out.println(q);
+        }
     }
 }
